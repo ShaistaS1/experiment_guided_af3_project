@@ -1,0 +1,8 @@
+# Default config for EGAF3
+sequence_fasta: data/sequences/barnase_barstar.fasta
+crosslinks: data/crosslinks/barnase_barstar.tsv
+cryoem_map: null
+nmr_restraints: null
+ligand_file: null
+output_dir: outputs/barnase_barstar
+n_samples: 50

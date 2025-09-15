@@ -1,0 +1,23 @@
+name: egaf3
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - numpy
+  - scipy
+  - biopython
+  - gemmi
+  - pip
+  - pip:
+      - protenix @ git+https://github.com/protenix/protenix.git
+      - mdtraj
+      - mrcfile
+      - pynmrstar
+      - rdkit
+      - openmm

@@ -1,0 +1,5 @@
+# Example config for crosslink-guided run
+sequence_fasta: data/sequences/barnase_barstar.fasta
+crosslinks: data/crosslinks/barnase_barstar.tsv
+output_dir: outputs/barnase_barstar_crosslink
+n_samples: 50
